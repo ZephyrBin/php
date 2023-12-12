@@ -32,4 +32,4 @@ session_start();
 $_SESSION['member_id'] = $member_data[0]['member_id'];
 
 // 목록으로 이동
-header("Location: /welcome.php");
+header("Location: /list.php");

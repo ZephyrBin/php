@@ -9,11 +9,15 @@
 <form method="POST" action="login.post.php">
     <p>
         아이디(이메일) :
-        <input type="text" name="login_id" />
+        <label>
+            <input type="text" name="login_id" />
+        </label>
     <p>
     <p>
         비밀번호 :
-        <input type="password" name="login_pw" />
+        <label>
+            <input type="password" name="login_pw" />
+        </label>
     <p>
     <p><input type="submit" value="로그인"></p>
 </form>

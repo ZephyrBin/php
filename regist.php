@@ -9,15 +9,21 @@
 <form method="POST" action="regist.post.php">
     <p>
         아이디 :
-        <input type="text" name="login_id" />
+        <label>
+            <input type="text" name="login_id" />
+        </label>
     <p>
     <p>
         비밀번호 :
-        <input type="password" name="login_pw" />
+        <label>
+            <input type="password" name="login_pw" />
+        </label>
     <p>
     <p>
         이름 :
-        <input type="text" name="login_name" />
+        <label>
+            <input type="text" name="login_name" />
+        </label>
     <p>
     <p><input type="submit" value="회원가입"></p>
 </form>
